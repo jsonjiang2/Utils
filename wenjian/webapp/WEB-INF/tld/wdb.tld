@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<taglib xmlns="http://java.sun.com/xml/ns/j2ee"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-jsptaglibrary_2_0.xsd"
+  version="2.0">
+    
+  <description>的自定义函数标签</description>
+  <display-name>wdb functions</display-name>
+  <tlib-version>1.0</tlib-version>
+  <short-name>wdb</short-name>
+  <uri></uri>
+ 	  <tag>
+	  	<description>用户tag</description>
+	  	<name>getUser</name>
+	  	<tag-class>com.ganjiangps.wangdaibus.tag.UserTag</tag-class>
+	  	<body-content>scriptless</body-content>
+	  	<attribute>
+	  		<name>uid</name>
+	  		<required>true</required>
+	  		<rtexprvalue>true</rtexprvalue>
+	  	</attribute>
+	  	
+	  	<attribute>
+	  		<name>var</name>
+	  		<required>false</required>
+	  		<rtexprvalue>false</rtexprvalue>
+	  	</attribute>
+	  </tag>
+	  
+	    <tag>
+	  	<description>管理用户tag</description>
+	  	<name>getAdminUser</name>
+	  	<tag-class>com.ganjiangps.wangdaibus.tag.AdminUserTag</tag-class>
+	  	<body-content>scriptless</body-content>
+	  	<attribute>
+	  		<name>uid</name>
+	  		<required>true</required>
+	  		<rtexprvalue>true</rtexprvalue>
+	  	</attribute>
+	  	
+	  	<attribute>
+	  		<name>var</name>
+	  		<required>false</required>
+	  		<rtexprvalue>false</rtexprvalue>
+	  	</attribute>
+	  </tag>
+	  
+	  <tag>
+	  	<description>产品标的tag</description>
+	  	<name>getProductBid</name>
+	  	<tag-class>com.ganjiangps.wangdaibus.tag.ProductBidTag</tag-class>
+	  	<body-content>scriptless</body-content>
+	  	<attribute>
+	  		<name>productno</name>
+	  		<required>true</required>
+	  		<rtexprvalue>true</rtexprvalue>
+	  	</attribute>
+	  	
+	  	<attribute>
+	  		<name>bidno</name>
+	  		<required>true</required>
+	  		<rtexprvalue>true</rtexprvalue>
+	  	</attribute>
+	  	
+	  	<attribute>
+	  		<name>var</name>
+	  		<required>false</required>
+	  		<rtexprvalue>false</rtexprvalue>
+	  	</attribute>
+	  </tag>
+	  
+	  <tag>
+	  	<description>资源标的tag</description>
+	  	<name>getResourcesBid</name>
+	  	<tag-class>com.ganjiangps.wangdaibus.tag.ResourcesBidTag</tag-class>
+	  	<body-content>scriptless</body-content>
+	  	<attribute>
+	  		<name>resourceno</name>
+	  		<required>true</required>
+	  		<rtexprvalue>true</rtexprvalue>
+	  	</attribute>
+	  	
+	  	<attribute>
+	  		<name>bidno</name>
+	  		<required>true</required>
+	  		<rtexprvalue>true</rtexprvalue>
+	  	</attribute>
+	  	
+	  	<attribute>
+	  		<name>var</name>
+	  		<required>false</required>
+	  		<rtexprvalue>false</rtexprvalue>
+	  	</attribute>
+	  </tag>
+	  	  
+	  <tag>
+	  	<description>申报记录tag</description>
+	  	<name>getProductDeclareRecord</name>
+	  	<tag-class>com.ganjiangps.wangdaibus.tag.ProductDeclareRecordTag</tag-class>
+	  	<body-content>scriptless</body-content>
+	  	<attribute>
+	  		<name>declareno</name>
+	  		<required>true</required>
+	  		<rtexprvalue>true</rtexprvalue>
+	  	</attribute>
+	  	
+	  	<attribute>
+	  		<name>var</name>
+	  		<required>false</required>
+	  		<rtexprvalue>false</rtexprvalue>
+	  	</attribute>
+	  </tag>
+	  
+	   <tag>
+	  	<description>清算记录tag</description>
+	  	<name>getProductLiquidationRecord</name>
+	  	<tag-class>com.ganjiangps.wangdaibus.tag.ProductLiquidationRecordTag</tag-class>
+	  	<body-content>scriptless</body-content>
+	  	<attribute>
+	  		<name>declareno</name>
+	  		<required>true</required>
+	  		<rtexprvalue>true</rtexprvalue>
+	  	</attribute>
+	  	
+	  	<attribute>
+	  		<name>var</name>
+	  		<required>false</required>
+	  		<rtexprvalue>false</rtexprvalue>
+	  	</attribute>
+	  </tag>
+	  
+	   <tag>
+	  	<description>承接资源记录tag</description>
+	  	<name>getResourcesUserLink</name>
+	  	<tag-class>com.ganjiangps.wangdaibus.tag.ResourcesUserLinkTag</tag-class>
+	  	<body-content>scriptless</body-content>
+	  	<attribute>
+	  		<name>subresourceno</name>
+	  		<required>true</required>
+	  		<rtexprvalue>true</rtexprvalue>
+	  	</attribute>
+	  	
+	  	<attribute>
+	  		<name>var</name>
+	  		<required>false</required>
+	  		<rtexprvalue>false</rtexprvalue>
+	  	</attribute>
+	  </tag>
+	  
+	  <tag>
+	  	<description>产品发布tag</description>
+	  	<name>getProductRelease</name>
+	  	<tag-class>com.ganjiangps.wangdaibus.tag.ProductReleaseTag</tag-class>
+	  	<body-content>scriptless</body-content>
+	  	<attribute>
+	  		<name>productno</name>
+	  		<required>true</required>
+	  		<rtexprvalue>true</rtexprvalue>
+	  	</attribute>
+	  	
+	  	<attribute>
+	  		<name>var</name>
+	  		<required>false</required>
+	  		<rtexprvalue>false</rtexprvalue>
+	  	</attribute>
+	  </tag>
+	  
+	   <tag>
+	  	<description>平台信息tag</description>
+	  	<name>getPlatFormInfo</name>
+	  	<tag-class>com.ganjiangps.wangdaibus.tag.PlatFormInfoTag</tag-class>
+	  	<body-content>scriptless</body-content>
+	  	<attribute>
+	  		<name>pno</name>
+	  		<required>true</required>
+	  		<rtexprvalue>true</rtexprvalue>
+	  	</attribute>
+	  	
+	  	<attribute>
+	  		<name>var</name>
+	  		<required>false</required>
+	  		<rtexprvalue>false</rtexprvalue>
+	  	</attribute>
+	  </tag>
+	  
+	  <tag>
+	  	<description>版块tag</description>
+	  	<name>getPreForumForum</name>
+	  	<tag-class>com.ganjiangps.wangdaibus.tag.ForumForumTag</tag-class>
+	  	<body-content>scriptless</body-content>
+	  	<attribute>
+	  		<name>fid</name>
+	  		<required>true</required>
+	  		<rtexprvalue>true</rtexprvalue>
+	  	</attribute>
+	  	
+	  	<attribute>
+	  		<name>var</name>
+	  		<required>false</required>
+	  		<rtexprvalue>false</rtexprvalue>
+	  	</attribute>
+	  </tag>
+	  
+	  <tag>
+	  	<description>日期格式化Tag</description>
+	  	<name>formatDate</name>
+	  	<tag-class>com.ganjiangps.wangdaibus.tag.DateFormatTag</tag-class>
+	  	<body-content>scriptless</body-content>
+	  	<attribute>
+	  		<name>value</name>
+	  		<required>true</required>
+	  		<rtexprvalue>true</rtexprvalue>
+	  	</attribute>
+	  	
+	  	<attribute>
+	  		<name>var</name>
+	  		<required>false</required>
+	  		<rtexprvalue>false</rtexprvalue>
+	  	</attribute>
+	  </tag>
+
+	<tag>
+		<description>日期格式化YYMMDDDTag</description>
+		<name>formatYYMMDDDate</name>
+		<tag-class>com.ganjiangps.wangdaibus.tag.DateFormatYYYYMMDDTag</tag-class>
+		<body-content>scriptless</body-content>
+		<attribute>
+			<name>value</name>
+			<required>true</required>
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+
+		<attribute>
+			<name>var</name>
+			<required>false</required>
+			<rtexprvalue>false</rtexprvalue>
+		</attribute>
+	</tag>
+   
+ </taglib>

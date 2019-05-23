@@ -1,0 +1,196 @@
+.up-frame-bj .up-frame-radius{padding-bottom: 20px;border-radius: 5px;}
+.up-frame-parent .up-frame-header{height: 50px;padding: 0px;line-height: 50px;border-bottom:solid 1px #e5e5e5;}
+.up-frame-parent .up-frame-header label{font-size: 16px;float: left;margin-left: 14px;color: #808080;}
+
+.up-frame-parent .up-frame-body{padding:20px;}
+.up-frame-parent .up-pre-before {width:327px;height: 327px;padding:0px;float: left;background: #fcfcfc;border: 1px solid #e3e3e3;}
+.up-frame-parent .up-pre-before img{width: 100%;}
+
+.up-frame-parent .up-frame-body .up-pre-after{background: #fcfcfc;overflow: hidden;width: 140px !important;;height: 140px !important;border: 1px solid #e3e3e3;float: left;margin-left: 25px;}
+
+.up-frame-parent .up-control-btns{width: 150px;height:30px;margin-left: auto;margin-right: auto;background: #dddddd;text-align: center;line-height: 30px; margin-top: 30px;}
+.up-frame-parent .up-control-btns span{width: 30%;} 
+
+@media screen and (max-width: 1024px){
+	.up-frame-parent .up-pre-before {width: 100%;}
+	.up-frame-parent .up-frame-body .up-pre-after{margin-left: 0px;margin-top: 10px;}
+}
+
+
+.logo{
+width: 220px; height: 100px; border: 1px dashed #DFDFDF; display: inline-block; margin: 0 16px 20px 0; text-align: center; color: #7C7C7C; position: relative;margin-left: 16px
+}
+.logo p{
+position: absolute; left: 0; bottom: 25px; width: 100%;
+}
+.ppp{
+margin-top: 20px;
+}
+.pic{
+position: absolute; width: 220px; height: 100px; left: 0; top: 0; z-index: 999; cursor: pointer; background-size: cover;
+}
+.salesman label{
+font-size: 20px;color: red;margin-left: 50px
+}
+/* 业务员信息css */
+/* .salesmanlogo{
+width: 220px; height: 140px; border: 1px dashed #DFDFDF; display: inline-block; margin: 0 16px 20px 0; text-align: center; color: #7C7C7C; position: relative;margin-left: 16px
+} */
+.salesmanlogo .ppp{
+margin-top: 60px;
+}
+.salesmanlogo .slsman{
+position: absolute; width: 220px; height: 100px; left: 0; top: 0; z-index: 999; cursor: pointer; background-size: cover;
+}
+.salesmanlogo p{
+position: absolute; left: 0; bottom: 25px; width: 100%;
+}
+.addbtn{
+font-size: 20px;width: 50px;height: 140px;float: right;margin-right: 440px;margin-top: 1px
+}
+.addbtn input{
+width: 50px;height: 120px;cursor: pointer;
+}
+
+.salesmanlogo .up-img-cover{
+    width: 120px;
+    height: 120px;
+    margin: auto;
+    margin-top: 0px;
+    position: relative;
+    cursor:pointer;
+    margin-left: -15px
+}
+.salesmanlogo .up-img-cover:hover p{
+    opacity: 1;
+}
+.salesmanlogo .up-img-cover p{
+    position: absolute;
+    top: 54px;
+    text-align: center;
+    font-size: 14px;
+    color: #ffffff;
+    width: 100%;
+    opacity: 0;
+    transition:all 0.15s ease-in-out;
+}
+.salesmanlogo .up-img-cover img{
+    width: 120px;
+    height: 120px;
+}
+.salesmanlogo .tankuang{
+    width: 600px;
+    height: 557px;
+    overflow: hidden;
+}
+.salesmanlogo .up-frame-parent .up-frame-header {
+    height: 50px;
+    padding: 0px;
+    line-height: 50px;
+    border-bottom: none;
+    background: #f2f2f2;
+}
+.salesmanlogo .up-frame-parent .up-frame-header label{
+    font-size: 16px;
+    color: #333333;
+    line-height: 18px;
+    text-indent: 18px;
+    font-weight: 700;
+    border-left: solid 4px #3773ea;
+    margin-top: 15px;
+    margin-left: 0;
+}
+.salesmanlogo .tankuang .close{
+    top: 0;
+    right: 0;
+    opacity: 1;
+    width: 53px;
+    -webkit-transition: all 0s;
+    transition: all 0s;
+}
+.salesmanlogo .up-frame-body{
+    position: relative;
+}
+.salesmanlogo .up-frame-body .xuanze_wj{
+    position: absolute;
+    top: 325px;
+    right: 64px;
+    cursor:pointer;
+}
+.salesmanlogo .up-frame-body .xuanze_wj .am-btn-default{
+    width: 140px;
+    height: 46px;
+    border: solid 1px #e6e6e6;
+    background: #f2f2f2;
+    font-size: 16px;
+    color: #333333;
+    display: inline-flex;
+}
+.salesmanlogo .up-frame-body .xuanze_wj .am-btn-default img{
+    margin-left: 20px;
+    margin-right: 14px;
+}
+.salesmanlogo .up-frame-body .xuanze_wj .am-btn-default p{
+    margin-top: -3px;
+}
+.salesmanlogo .up-frame-parent .up-pre-before{
+    width: 340px;
+    height: 340px;
+    border-radius: 0;
+    margin-top: 15px;
+    margin-left: 30px;
+}
+.salesmanlogo .up-frame-parent .up-frame-body .up-pre-after{
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-left: 34px;
+    margin-top: 76px;
+    border: none;
+    background: none;
+}
+.salesmanlogo .yulan{
+    position: absolute;
+    top: 45px;
+    right: 100px;
+}
+.salesmanlogo .up-frame-parent .up-control-btns{
+    margin-top: 0;
+}
+.salesmanlogo .up-frame-parent .up-control-btns span{
+    width: 20px;
+    height: 20px;
+    border: dashed 1px #cccccc;
+    margin-left: 10px;
+    line-height: 18px;
+    font-size: 13px;
+}
+.salesmanlogo .up-frame-parent .up-control-btns{
+    background: none;
+    width:100px;
+    margin-left: 270px;
+}
+.salesmanlogo .am-icon-rotate-left:before, .am-icon-undo:before {
+    content: "\f0e2";
+    color: #cccccc;
+}
+.salesmanlogo .am-icon-repeat:before, .am-icon-rotate-right:before{
+    color: #cccccc;
+}
+.salesmanlogo .am-icon-check:before{
+    color: #cccccc;
+}
+.salesmanlogo .touxiang_bc{
+    display: block;
+    width: 240px;
+    height: 46px;
+    background: #3773ea;
+    text-align: center;
+    line-height: 46px;
+    font-size: 18px;
+    color: #fff;
+    position: absolute;
+    top: 430px;
+    left: 180px;;
+}

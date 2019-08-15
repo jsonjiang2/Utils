@@ -1,0 +1,24 @@
+2011-4-3 11:21:30 org.apache.catalina.core.AprLifecycleListener init
+信息: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jdk1.5.0_04\bin;.;C:\WINDOWS\system32;C:\WINDOWS;;C:\Program Files\Java\jdk1.5.0_04\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\Program Files\Microsoft SQL Server\80\Tools\BINN;C:\Program Files\Rational\common;C:\Program Files\CVSNT\
+2011-4-3 11:21:30 org.apache.coyote.http11.Http11Protocol init
+信息: Initializing Coyote HTTP/1.1 on http-9001
+2011-4-3 11:21:30 org.apache.catalina.startup.Catalina load
+信息: Initialization processed in 1462 ms
+2011-4-3 11:21:30 org.apache.catalina.core.StandardService start
+信息: Starting service Catalina
+2011-4-3 11:21:30 org.apache.catalina.core.StandardEngine start
+信息: Starting Servlet Engine: Apache Tomcat/6.0.20
+2011-4-3 11:21:32 org.apache.coyote.http11.Http11Protocol start
+信息: Starting Coyote HTTP/1.1 on http-9001
+2011-4-3 11:21:32 org.apache.jk.common.ChannelSocket init
+信息: JK: ajp13 listening on /0.0.0.0:8009
+2011-4-3 11:21:32 org.apache.jk.server.JkMain start
+信息: Jk running ID=0 time=0/63  config=null
+2011-4-3 11:21:32 org.apache.catalina.startup.Catalina start
+信息: Server startup in 2383 ms
+2011-4-3 11:21:35 org.apache.coyote.http11.Http11Protocol pause
+信息: Pausing Coyote HTTP/1.1 on http-9001
+2011-4-3 11:21:36 org.apache.catalina.core.StandardService stop
+信息: Stopping service Catalina
+2011-4-3 11:21:36 org.apache.coyote.http11.Http11Protocol destroy
+信息: Stopping Coyote HTTP/1.1 on http-9001
